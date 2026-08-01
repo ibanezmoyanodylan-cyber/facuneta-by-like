@@ -3,10 +3,223 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FACUNETA</title>
+    <title>La Facuneta | El Viaje de Amigos</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800;900&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>La Facuneta</h1>
+
+    <!-- Header & Navegación -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <span class="logo-van"><i class="fa-solid fa-van-shuttle"></i></span>
+                <span class="logo-text">LA <span class="highlight">FACUNETA</span></span>
+            </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#furgoneta">La Furgoneta</a></li>
+                    <li><a href="#tripulacion">Tripulación</a></li>
+                    <li><a href="#destinos">Bitácora</a></li>
+                    <li><a href="#galeria">Galería</a></li>
+                </ul>
+            </nav>
+            <a href="#contacto" class="btn btn-nav">Subite</a>
+        </div>
+    </header>
+
+    <!-- Hero Section con la bandera / diseño Blanco y Rojo -->
+    <section id="inicio" class="hero">
+        <div class="hero-bg-split">
+            <div class="top-half"></div>
+            <div class="bottom-half"></div>
+        </div>
+        <div class="container hero-content">
+            <div class="badge-tag">Ruta, Amigos & Buenas Vibras</div>
+            <h1>BIENVENIDOS A <br><span class="text-bicolor">LA FACUNETA</span></h1>
+            <p class="hero-subtitle">Mitad blanca arriba, mitad roja abajo. 100% leyenda en las rutas.</p>
+            <div class="hero-buttons">
+                <a href="#furgoneta" class="btn btn-primary">Conocé la Máquina</a>
+                <a href="#destinos" class="btn btn-secondary">Próximos Viajes</a>
+            </div>
+            
+            <!-- Card / Gráfico interactivo de la Furgoneta -->
+            <div class="van-graphic-card">
+                <div class="van-visual">
+                    <div class="van-top">
+                        <div class="van-window"></div>
+                        <div class="van-window"></div>
+                    </div>
+                    <div class="van-bottom">
+                        <div class="van-wheel wheel-left"></div>
+                        <div class="van-wheel wheel-right"></div>
+                        <div class="van-headlight"></div>
+                    </div>
+                </div>
+                <div class="van-badge">
+                    <span class="van-plate">FACU-2026</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: La Furgoneta -->
+    <section id="furgoneta" class="section van-details">
+        <div class="container">
+            <div class="section-header">
+                <h2>LA MÁQUINA</h2>
+                <div class="divider"></div>
+                <p>No es solo un vehículo, es nuestro hogar con ruedas.</p>
+            </div>
+
+            <div class="specs-grid">
+                <div class="spec-card">
+                    <div class="icon-box"><i class="fa-solid fa-paintbrush"></i></div>
+                    <h3>Diseño Bicolor Icónico</h3>
+                    <p>Blanco purísimo de la cintura para arriba para mantener la frescura, y un rojo pasión de la mitad para abajo para comerse la ruta.</p>
+                </div>
+                <div class="spec-card">
+                    <div class="icon-box"><i class="fa-solid fa-couch"></i></div>
+                    <h3>Confort de Ruta</h3>
+                    <p>Equipada con asientos reclinables, heladerita cargada, mates siempre listos y parlantes que retumban todo el viaje.</p>
+                </div>
+                <div class="spec-card">
+                    <div class="icon-box"><i class="fa-solid fa-music"></i></div>
+                    <h3>Playlist Oficial</h3>
+                    <p>Desde los clásicos del rock nacional e internacional hasta la cumbia infaltable cuando cae el sol en el campamento.</p>
+                </div>
+                <div class="spec-card">
+                    <div class="icon-box"><i class="fa-solid fa-compass"></i></div>
+                    <h3>Kilómetros Infinitos</h3>
+                    <p>Sin destino fijo pero con el rumbo claro: pasar los mejores momentos entre amigos y sumar anécdotas inolvidables.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Tripulación -->
+    <section id="tripulacion" class="section crew-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>LA TRIPULACIÓN</h2>
+                <div class="divider"></div>
+                <p>Los integrantes que le dan vida a cada kilómetro recorrido.</p>
+            </div>
+
+            <div class="crew-grid">
+                <div class="crew-card">
+                    <div class="crew-avatar">
+                        <i class="fa-solid fa-user-astronaut"></i>
+                    </div>
+                    <h3>El Piloto</h3>
+                    <span class="crew-role">Conductor Designado</span>
+                    <p>Firme al volante, domina los cambios como nadie y conoce todos los peajes del país.</p>
+                </div>
+                <div class="crew-card">
+                    <div class="crew-avatar">
+                        <i class="fa-solid fa-mug-hot"></i>
+                    </div>
+                    <h3>El Cebador</h3>
+                    <span class="crew-role">Maestro del Mate</span>
+                    <p>Mantiene el termo caliente y el mate impecable sin volcar una sola gota en las curvas.</p>
+                </div>
+                <div class="crew-card">
+                    <div class="crew-avatar">
+                        <i class="fa-solid fa-sliders"></i>
+                    </div>
+                    <h3>El DJ de la Nave</h3>
+                    <span class="crew-role">Selector Musical</span>
+                    <p>Encargado de que la música encaje perfectamente con el paisaje y el humor del grupo.</p>
+                </div>
+                <div class="crew-card">
+                    <div class="crew-avatar">
+                        <i class="fa-solid fa-fire-burner"></i>
+                    </div>
+                    <h3>El Asador</h3>
+                    <span class="crew-role">Gastronomía & Logística</span>
+                    <p>Transforma cualquier parada en la banquina en una comida épica de cinco estrellas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Bitácora -->
+    <section id="destinos" class="section destinations-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>BITÁCORA DE RUTA</h2>
+                <div class="divider"></div>
+                <p>Nuestras paradas históricas y las próximas aventuras proyectadas.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <span class="date">Enero 2026</span>
+                        <h3>La Ruta del Mar</h3>
+                        <p>Primera gran prueba para La Facuneta. Costas, arena, fogones nocturnos y la prueba superada con creces.</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <span class="date">Abril 2026</span>
+                        <h3>Escapada a las Sierras</h3>
+                        <p>Curvas, aire puro y la Facuneta trepando las pendientes luciendo su característico bicolor blanco y rojo.</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content highlight-timeline">
+                        <span class="date badge-next">Próximamente</span>
+                        <h3>El Gran Tour del Sur</h3>
+                        <p>Lagos, montañas y miles de kilómetros por delante. Preparando los motores para la aventura máxima.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección: Galería -->
+    <section id="galeria" class="section gallery-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>GALERÍA DE FOTOS</h2>
+                <div class="divider"></div>
+                <p>Postales de la Facuneta en acción.</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item item-1"><div class="gallery-overlay"><span>En la Ruta <i class="fa-solid fa-road"></i></span></div></div>
+                <div class="gallery-item item-2"><div class="gallery-overlay"><span>Atardecer Bicolor <i class="fa-solid fa-sun"></i></span></div></div>
+                <div class="gallery-item item-3"><div class="gallery-overlay"><span>Parada Táctica <i class="fa-solid fa-campground"></i></span></div></div>
+                <div class="gallery-item item-4"><div class="gallery-overlay"><span>Mate & Charla <i class="fa-solid fa-mug-hot"></i></span></div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contacto" class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <h2>¿QUERÉS SUMARTE A LA PRÓXIMA RODADA?</h2>
+                <p>Mándanos un mensaje o seguinos en las redes para ver el minuto a minuto de La Facuneta.</p>
+                <div class="social-links">
+                    <a href="#" class="social-btn"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-btn"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2026 <strong>La Facuneta</strong>. Furgoneta Blanca & Roja — Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
